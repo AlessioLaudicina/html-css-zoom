@@ -18,6 +18,11 @@ main{
     width: 100%;
 }
 
+.button-screen{
+    display: flex;
+    justify-content: end;
+}
+
 .partecipant-gallery{
     display: flex;
     flex-wrap: wrap;
@@ -37,7 +42,6 @@ main{
 .name{
     position: absolute;
     bottom: 0;
-    left: 0;
     color: white;
     padding: 5px;
     background-color: rgba(0, 0, 0, 0.2);
@@ -48,7 +52,7 @@ main{
     padding: 10px;
     display: block;
     height: 150px;
-    width: 250px;
+    width: 100%;
    
 }
 
@@ -56,7 +60,7 @@ main{
 
 
 
-header button{
+.speaker{
     background-color: gray;
     color: whitesmoke;
     padding: 5px;
@@ -89,12 +93,13 @@ footer{
     justify-content: center;
     align-items: center;
     height: 100%;
-    background-color: green;
+    background-color: rgb(200, 194, 194);
 }
 
 .footer-right span{
 
     color: red;
+    padding: 5px;
 
 }
 
@@ -110,10 +115,15 @@ footer{
     flex-direction: column;
     align-items: center;
     color: white;
-    margin-right: 10px;
+    padding: 10px;
+    height: 20px;
     
 }
 
 .icon i{
     font-size: 30px;
+}
+
+.green{
+    color: greenyellow;
 }
