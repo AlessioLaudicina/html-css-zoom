@@ -6,21 +6,24 @@
 
 header{
     height: 50px;
-    background-color: red;
+    background-color: rgb(40, 39, 39);
     text-align: right;
     padding: 10px;
+    background-color: black;
 }
 
 main{
-    background-color: black;
     height: calc(100vh - 130px);
     overflow-y: scroll;
     width: 100%;
+    background-color: rgb(40, 39, 39);
+
 }
 
 .button-screen{
-    display: flex;
-    justify-content: end;
+    background-color: black;
+    margin-left: 10px;
+    color: white;
 }
 
 .partecipant-gallery{
