@@ -96,7 +96,7 @@ footer{
     justify-content: center;
     align-items: center;
     height: 100%;
-    background-color: rgb(200, 194, 194);
+    background-color: gray;
 }
 
 .footer-right span{
