@@ -36,7 +36,7 @@ main{
 
     position: relative;
     width: 245px;
-    padding: 10px;
+    margin: 10px;
     height: 150px;
 }
 
@@ -48,6 +48,7 @@ main{
     color: white;
     padding: 5px;
     background-color: rgba(0, 0, 0, 0.2);
+    margin-left: 10px;
 }
 
 .partecipant img{
